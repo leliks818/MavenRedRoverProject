@@ -33,13 +33,6 @@ public class WebFormTest {
         inputField.click();
         inputField.sendKeys("New York");
 
-//        // Клик по элементу
-//        WebElement uploadButton = driver.findElement(By.cssSelector("input[name='my-file']"));
-//        uploadButton.click();
-//
-//        Thread.sleep(4000);
-//        uploadButton.sendKeys("C:\\Users\\Alumno\\Pictures\\Screenshots\\Captura de pantalla 2025-02-14 154318.png");
-
 
         driver.findElement(By.xpath("//input[@id='my-check-1']")).click();
         driver.findElement(By.xpath("//input[@id='my-radio-1']")).click();
