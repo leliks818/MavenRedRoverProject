@@ -75,6 +75,5 @@ public class DropdownTest {
             String actualText =element.getText().trim();
             Assert.assertTrue(dropDownItems.contains(actualText), "Список не совпадает с ожидаемым: " );
         }
-
     }
 }

@@ -59,7 +59,6 @@ public class PaginationTest {
         Assert.assertNotEquals(currentUrl, newUrl, "URL не изменился после клика по 'Next'!");
 
     }
-
     @Test
     public void clickNextButton() throws InterruptedException {
         Actions actions = new Actions(driver);
