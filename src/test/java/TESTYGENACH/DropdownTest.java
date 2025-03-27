@@ -48,6 +48,7 @@ public class DropdownTest {
             Assert.assertTrue(dropDownItems.contains(actualItemText), " список не совпадает с ожидаемым");
         }
     }
+
     @Test
     public void rightClick() throws InterruptedException {
 
